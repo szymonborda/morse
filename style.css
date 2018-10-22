@@ -1,0 +1,23 @@
+body {
+    font-family: helvetica, sans-serif;
+    color: #eee;
+    background-color: #b52727;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.half-screen-tab {
+    padding: 30px;
+    font-size: 50px;
+    width: 100%;
+    height: calc(50vh - 3px);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.half-screen-tab + .half-screen-tab {
+    border-top: 3px dashed #eee;
+}
